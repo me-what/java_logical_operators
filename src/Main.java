@@ -56,5 +56,12 @@ public class Main {
         System.out.println("a & b = " + res1); // a & b = 16
         System.out.println("a | b = " + res2); // a | b = 121
         System.out.println("a ^ b = " + res3 + "\n"); // a ^ b = 105
+
+        int a9 = 13;
+        int z9 = a9 << 1;
+        System.out.println(a9 + " = " + Integer.toBinaryString(a9)); // 13 = 1101
+        System.out.println("13 << 1");
+        System.out.println(z9 + " = " + Integer.toBinaryString(z9)); // 26 = 11010
+        System.out.println();
     }
 }
