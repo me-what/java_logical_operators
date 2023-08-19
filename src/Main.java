@@ -40,5 +40,21 @@ public class Main {
         boolean a6 = true, b6 = true, c6 = false;
         System.out.println((a6|b6)&c6); // false
         System.out.println();
+
+        boolean a7 = true;
+        boolean b7 = false;
+        int c7 = 25;
+        int q7 = 2;
+        System.out.println((a7|b7) | (c7 < 100) & !(true)^(q7 == 5)); // true
+        System.out.println();
+
+        int a8 = 25;
+        int b8 = 112;
+        int res1 = a8 & b8;
+        int res2 = a8 | b8;
+        int res3 = a8 ^ b8;
+        System.out.println("a & b = " + res1); // a & b = 16
+        System.out.println("a | b = " + res2); // a | b = 121
+        System.out.println("a ^ b = " + res3 + "\n"); // a ^ b = 105
     }
 }
